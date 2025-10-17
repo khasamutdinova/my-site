@@ -6,10 +6,10 @@ function Ticker(){
             overflow: 'hidden',
             whiteSpace: 'nowrap',
             background: '#222',
-            color : '#0f0',
+            color : 'rgba(241, 244, 241, 1)',
             padding: '10px'
         }}>
-            <marquee>Добро пожаловать на сайт IT-122</marquee>
+            <marquee>Добро пожаловать на сайт!!! </marquee>
         </div>
     )
 }
