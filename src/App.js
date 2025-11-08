@@ -10,6 +10,8 @@ import FavoritesPage from "./pages/FavoritePage";
 import RegistrationPage from "./pages/RegistrationPage";
 import Login from "./pages/Login";
 import Users from "./pages/Users";
+import TicketPage from "./components/TicketPage";
+import RestaurantPage from "./pages/RestaurantPage";
 
 function App() {
   return (
@@ -31,6 +33,8 @@ function App() {
         <Route path="/movies" element={<MoviePage />} />
         <Route path="/login" element={<Login />} />
         <Route path="/users" element={<Users />} />
+        <Route path="/tickets" element={<TicketPage />} />
+         <Route path="/menu" element={<RestaurantPage />} />
       </Routes>
       <Footer />
     </Router>
